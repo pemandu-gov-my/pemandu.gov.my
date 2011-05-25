@@ -1,0 +1,10 @@
+#sdmon .sdmon-rownum { width: 3ex; text-align: right; }
+#sdmon .sdmon-filename { }
+#sdmon .sdmon-count { text-align: right; }
+#sdmon .sdmon-date { width: 24ex; text-align: center; }
+#sdmon .sdmon-nonex { width: 5ex; text-align: center; }
+#sdmon .sdmon-ipaddr { }
+#sdmon .sdmon-referer { }
+#sdmon .sdmon-username { }
+#sdmon th {text-align: center; }
+#sdmon th, #sdmon td { padding-left: 1ex; padding-right: 1ex; }

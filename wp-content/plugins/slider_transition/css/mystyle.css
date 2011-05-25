@@ -1,0 +1,25 @@
+.errordiv 
+{
+	background-color:#F1F1F1;
+	border:1px dashed #D9B282;
+	color:#FF0000;
+	display:none;
+	margin-bottom:30px;
+	padding:2px;
+	position:relative;
+	top:10px;
+	width:430px;
+	text-align:left;
+	margin-left:50px;
+}
+
+.errordiv ul
+{
+	padding:5px 5px 5px 15px;
+	
+}
+
+.errordiv ul li
+{
+	list-style:disc;
+}

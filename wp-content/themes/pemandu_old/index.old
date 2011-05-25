@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+<script type="text/javascript" src="../scripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../scripts/cufon.js"></script>
+<script type="text/javascript" src="../scripts/ITC_Avant_Garde_Gothic_Std_Medium_500.font.js"></script>
+<title>GTP Home Page</title>
+</head>
+<body id="home">
+	<div id="home-area">
+		<div class="container">
+		<div id="main_area">
+
+			<div id="header">
+				<div id="return"><p> <a href="#">Main</a></p></div>
+				<div id="language"><a href="#" id="english">English</a> | <a href="#" id="malay">Bahasa Malaysia</a></div>
+				<div id="search"><img src="images/search.png" /> <input type="text" value=" ...search" onClick='selectText(this);'></div>	
+				<div id="navigation">
+					<ul>
+						<li><a href = "/./pemandu/gtp/index.html" id="homenav">Home</a></li>
+						<li><a href = "#" id="gtpnav">gtp</a></li>
+						<li><a href = "#" id="nkranav">National key results areas</a></li>
+						<li><a href = "#" id="medianav">media</a></li>
+						<li><a href = "#" id="careersnav">careers</a></li>
+						<li><a href = "#" id="feedbacknav">feedback</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="sidebar_right">
+				<div id="video">
+				<h2>Video</h2>
+				<img src="images/video.png" />
+				<p> Government has taken the second step in a gradual</p>
+				<span class="readmore">+ View all</span>	
+				</div>
+				<div id="tweets">
+					<h2>GTP Tweets</h2>
+					<br />
+				<span class="time">ABOUT 16 HOURS AGO</span>
+	<p><span>@PEMANDU</span> Datuk Seri Najib Tun Razak on Thursday </p>
+		<br />
+	<span class="time">ABOUT 16 HOURS AGO</span>
+	<p><span>@PEMANDU</span> Datuk Seri Najib Tun Razak on Thursday </p>
+	<img src="images/tweet.png">
+				</div>
+				<div class="feedback">
+					<h2>Your Feedback matters</h2> <img src="images/speech.png" />
+					<br />
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					<img src="images/tell-us.png" />
+				</div>
+				
+			</div>
+			<div id="slider_area">
+				<div id="slide-text">
+					<span id="focus"> IN FOCUS </span>
+					<div id="slide-caption">
+						<h3>Subsidy Rationalisation</h3>
+						<p> To help Malaysia maintain the strong growth it has achieved, the Government has taken the second step in a gradual subsidy rationalisation effor. This step is in line with its long term stragey to provide...</p>
+						<span class="readmore"> + Read More</span>
+					</div>
+				</div>
+				<div id="slide-picture">
+					<div id="slide-buttons">
+						<ul>
+							<li> 1</li>
+							<li> 2</li>
+							<li> 3</li>
+							<li> 4</li>
+						</ul>
+					</div>
+					<img src="images/slider-img1.jpg" />
+				</div>
+			</div>
+			<div id="footer">
+				<div id="news">
+					<a href="#"><img src="images/view-all.png" /></a>
+					<h2> GTP NEWS</h2>
+					<div id="col1">
+						<p class="date"> 12.11.2010</p>
+						<h3>Koh Says Government Services Getting Better</h3>
+						<p> THE Government Transformation Programme (GTP) launched last January has yielded positive results...</p>
+						<span class="readmore"> + Read More</span>
+					</div>
+					<div id="col2">
+						<p class="date"> 12.11.2010</p>
+						<h3>GTP Does Not Discriminate</h3>
+						<p>THE Government Transformation Programme (GTP) roadmap to turn Malaysia into a high-income economy...</p>
+						<span class="readmore"> + Read More</span>
+					</div>
+					<div id="col3">
+						<p class="date"> 12.11.2010</p>
+						<h3>GTP Does Not Discriminate</h3>
+						<p>THE Government Transformation Programme (GTP) roadmap to turn Malaysia into a high-income economy...</p>
+						<span class="readmore"> + Read More</span>
+					</div>
+				</div>	
+			<div id="footer-bottom">
+					<div id="copyright">
+						<p><strong>COPYRIGHT 2010 @ PEMANDU</strong></p>
+					</div>
+					<div id="footer_menu">
+						<ul>
+							<li><a href="#">Terms and Conditions</a></li>
+							<li>|</li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li>|</li>
+							<li><a href="#">Copyright Notice</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				
+		</div>
+<script type="text/javascript">
+	Cufon.set('fontFamily', 'ITC-Medium');
+	Cufon.replace('#navigation',{hover:true});
+	Cufon.replace('#return p,#copyright p');
+	Cufon.set('fontFamily', 'ITCAvantGardeStd-Bold');
+	Cufon.replace('#sidebar_right h2,#slide-buttons,#focus,#news h2');
+	Cufon.set('fontFamily', 'ITC-Demi');
+	Cufon.replace('a#english, a#malay');
+ function selectText(textField) 
+  {
+    textField.focus();
+    textField.select();
+  }	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Download Monitor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-29 18:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: FatCow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../tags/0.05/simple-download-monitor.php:226
+#: ../tags/0.05/simple-download-monitor.php:496
+#: ../tags/0.06/simple-download-monitor.php:226
+#: ../tags/0.06/simple-download-monitor.php:498
+#: ../tags/0.07/simple-download-monitor.php:236
+#: ../tags/0.07/simple-download-monitor.php:513
+#: ../trunk/simple-download-monitor.php:237
+#: ../trunk/simple-download-monitor.php:636
+msgid "Simple Download Monitor options"
+msgstr "Simple Download Monitor - nastavení"
+
+#: ../tags/0.05/simple-download-monitor.php:227
+#: ../tags/0.06/simple-download-monitor.php:227
+#: ../tags/0.07/simple-download-monitor.php:237
+#: ../trunk/simple-download-monitor.php:238
+msgid "Allowed directories"
+msgstr "Разрешенные директории"
+
+#: ../tags/0.05/simple-download-monitor.php:228
+#: ../tags/0.06/simple-download-monitor.php:228
+#: ../tags/0.07/simple-download-monitor.php:238
+#: ../trunk/simple-download-monitor.php:239
+msgid "Only requested files whose full names (relative to document root) start with this regular expression will be processed. It is strongly recommended to place all downloadable files (and ONLY downloadable files) into a designated directory and then placing that directory's name followed by a slash here. It is possible to use the power of PREG to allow multiple directories, but make sure there are ONLY files which you are comfortable with malicious users downloading. Do not EVER allow directories which contain PHP files here! That could lead to disclosure of sensitive data, including username and password used to connect to WordPress database."
+msgstr "Только просил файлы, чьи полные имена (по отношению к документу корень) начинать с этого регулярного выражения будет обработана. Настоятельно рекомендуется поместить все загружаемые файлы (и только загружаемые файлы) в указанный каталог и затем размещения, что имя каталога после косой черты здесь. Можно использовать силу PREG чтобы позволить нескольким каталогам, но убедитесь, что есть только файлы, которые вы не имеете опыта злоумышленников скачивания. Никогда не позволить каталогов, в которых содержатся PHP файлам здесь! Это могло бы привести к раскрытию конфиденциальной информации, включая имя пользователя и пароль, используемые для подключения к базе данных WordPress."
+
+#: ../tags/0.05/simple-download-monitor.php:229
+#: ../tags/0.06/simple-download-monitor.php:229
+#: ../tags/0.07/simple-download-monitor.php:239
+#: ../trunk/simple-download-monitor.php:240
+msgid "Default value is <code>files/</code>, which only allows download from /files directory (the leading <code>/</code> is implicit)."
+msgstr "Значение по умолчанию <code>files/</code> который обеспечивает только загрузить с / файлов каталогов (ведущий <code>/</code> подразумевается)."
+
+#: ../tags/0.05/simple-download-monitor.php:231
+#: ../tags/0.06/simple-download-monitor.php:231
+#: ../tags/0.07/simple-download-monitor.php:241
+#: ../trunk/simple-download-monitor.php:242
+msgid "Allowed extensions"
+msgstr "Разрешенные расширения"
+
+#: ../tags/0.05/simple-download-monitor.php:232
+#: ../tags/0.06/simple-download-monitor.php:232
+#: ../tags/0.07/simple-download-monitor.php:242
+#: ../trunk/simple-download-monitor.php:243
+msgid "Only files with extensions matching this regular expressions will be processed. This is another important security value. Make sure you only add extensions which are safe for malicious users to have, e.g. archives and possibly images. Do NOT use any expression that could allow a user to download PHP files, even if you think it safe given the Allowed Directories option above."
+msgstr "Только файлы с расширениями, соответствующие этому регулярных выражений будут обработаны. Это еще одно важное значение безопасности. Убедитесь, что вы только добавить, расширений, которые являются безопасными для злоумышленников иметь, например, архивы и, возможно, изображения. Не используйте выражения, которые могут позволить пользователям загружать файлы PHP, даже если вы считаете, что данный безопасной номера варианта Справочники выше."
+
+#: ../tags/0.05/simple-download-monitor.php:233
+#: ../tags/0.06/simple-download-monitor.php:233
+#: ../tags/0.07/simple-download-monitor.php:243
+#: ../trunk/simple-download-monitor.php:244
+msgid "Default value is <code>zip|rar|7z</code> which only allows download of files ending with <code>.zip</code>, <code>.rar</code> and <code>.7z</code> (the leading <code>.</code> is implicit)."
+msgstr "Стандартное значение <code>zip|rar|7z</code> которое только позволяет загружать файлы с расширением <code>.zip</code>, <code>.rar</code> and <code>.7z</code> (лид. код <code>.</code> подразумевается)."
+
+#: ../tags/0.05/simple-download-monitor.php:235
+#: ../tags/0.06/simple-download-monitor.php:235
+#: ../tags/0.07/simple-download-monitor.php:250
+#: ../trunk/simple-download-monitor.php:251
+msgid "Store detailed logs?"
+msgstr "Сохранять подробные логи?"
+
+#: ../tags/0.05/simple-download-monitor.php:236
+#: ../tags/0.06/simple-download-monitor.php:236
+#: ../tags/0.07/simple-download-monitor.php:251
+#: ../trunk/simple-download-monitor.php:252
+msgid "If detailed logs are allowed, various information (including exact time of download, user's IP address, referrer etc.) is stored. This can fill your database quickly if you have only a little space or a lot of popular downloads. Otherwise just the total numbers of downloads are stored, consuming significantly less space."
+msgstr "Если разрешено подробные журналы различной информации (в том числе точное время загрузки, IP адрес пользователя, ссылающаяся т.д.) сохраняется. Это может заполнить вашей базе данных, если у вас есть только пространство мало или много популярных загрузки. В противном случае хранятся только общее число загрузок, потребляющих значительно меньше пространства."
+
+#: ../tags/0.05/simple-download-monitor.php:237
+#: ../tags/0.06/simple-download-monitor.php:237
+#: ../tags/0.07/simple-download-monitor.php:252
+#: ../trunk/simple-download-monitor.php:253
+msgid "Use detailed statistics."
+msgstr "Показать подробную статистику"
+
+#: ../tags/0.05/simple-download-monitor.php:238
+#: ../tags/0.06/simple-download-monitor.php:238
+#: ../tags/0.07/simple-download-monitor.php:253
+#: ../trunk/simple-download-monitor.php:254
+msgid "Update settings"
+msgstr "Обновить настройки"
+
+#: ../tags/0.05/simple-download-monitor.php:343
+#: ../tags/0.06/simple-download-monitor.php:343
+#: ../tags/0.07/simple-download-monitor.php:358
+#: ../trunk/simple-download-monitor.php:374
+msgid "First"
+msgstr "Первый"
+
+#: ../tags/0.05/simple-download-monitor.php:344
+#: ../tags/0.06/simple-download-monitor.php:344
+#: ../tags/0.07/simple-download-monitor.php:359
+#: ../trunk/simple-download-monitor.php:375
+msgid "Previous"
+msgstr "Пред."
+
+#: ../tags/0.05/simple-download-monitor.php:349
+#: ../tags/0.06/simple-download-monitor.php:349
+#: ../tags/0.07/simple-download-monitor.php:364
+#: ../trunk/simple-download-monitor.php:380
+msgid "Next"
+msgstr "След."
+
+#: ../tags/0.05/simple-download-monitor.php:350
+#: ../tags/0.06/simple-download-monitor.php:350
+#: ../tags/0.07/simple-download-monitor.php:365
+#: ../trunk/simple-download-monitor.php:381
+msgid "Last"
+msgstr "Пред."
+
+#: ../tags/0.05/simple-download-monitor.php:365
+#: ../tags/0.05/simple-download-monitor.php:428
+#: ../tags/0.05/simple-download-monitor.php:496
+#: ../tags/0.05/simple-download-monitor.php:497
+#: ../tags/0.06/simple-download-monitor.php:365
+#: ../tags/0.06/simple-download-monitor.php:430
+#: ../tags/0.06/simple-download-monitor.php:498
+#: ../tags/0.06/simple-download-monitor.php:499
+#: ../tags/0.07/simple-download-monitor.php:380
+#: ../tags/0.07/simple-download-monitor.php:445
+#: ../tags/0.07/simple-download-monitor.php:513
+#: ../tags/0.07/simple-download-monitor.php:514
+#: ../trunk/simple-download-monitor.php:478
+#: ../trunk/simple-download-monitor.php:555
+#: ../trunk/simple-download-monitor.php:636
+#: ../trunk/simple-download-monitor.php:637
+msgid "Simple Download Monitor"
+msgstr "Simple Download Monitor"
+
+#: ../tags/0.05/simple-download-monitor.php:366
+#: ../tags/0.06/simple-download-monitor.php:366
+#: ../tags/0.07/simple-download-monitor.php:381
+#: ../trunk/simple-download-monitor.php:479
+msgid "Nonexistent downloads"
+msgstr "Несуществующие загрузки"
+
+#: ../tags/0.05/simple-download-monitor.php:366
+#: ../tags/0.06/simple-download-monitor.php:366
+#: ../tags/0.07/simple-download-monitor.php:381
+#: ../trunk/simple-download-monitor.php:479
+msgid "All downloads"
+msgstr "Все загрузки"
+
+#: ../tags/0.05/simple-download-monitor.php:367
+#: ../tags/0.06/simple-download-monitor.php:367
+#: ../tags/0.07/simple-download-monitor.php:382
+#: ../trunk/simple-download-monitor.php:480
+msgid "Show all downloads"
+msgstr "Показать все загрузки"
+
+#: ../tags/0.05/simple-download-monitor.php:367
+#: ../tags/0.06/simple-download-monitor.php:367
+#: ../tags/0.07/simple-download-monitor.php:382
+#: ../trunk/simple-download-monitor.php:480
+msgid "Show nonexistent downloads"
+msgstr "Показать несуществующие загрузки"
+
+#: ../tags/0.05/simple-download-monitor.php:378
+#: ../tags/0.06/simple-download-monitor.php:378
+#: ../tags/0.07/simple-download-monitor.php:393
+#: ../trunk/simple-download-monitor.php:495
+msgid "Filename"
+msgstr "Имя файла"
+
+#: ../tags/0.05/simple-download-monitor.php:379
+#: ../tags/0.06/simple-download-monitor.php:379
+#: ../tags/0.07/simple-download-monitor.php:394
+#: ../trunk/simple-download-monitor.php:496
+msgid "Download count"
+msgstr "Счет загрузок"
+
+#: ../tags/0.05/simple-download-monitor.php:380
+#: ../tags/0.06/simple-download-monitor.php:380
+#: ../tags/0.07/simple-download-monitor.php:395
+#: ../trunk/simple-download-monitor.php:497
+msgid "Last date"
+msgstr "Последняя дата"
+
+#: ../tags/0.05/simple-download-monitor.php:429
+#: ../tags/0.06/simple-download-monitor.php:431
+#: ../tags/0.07/simple-download-monitor.php:446
+#: ../trunk/simple-download-monitor.php:556
+#, php-format
+msgid "Detailed data for <strong>%s</strong>:"
+msgstr "Подробные данные для <strong>%s</strong>:"
+
+#: ../tags/0.05/simple-download-monitor.php:430
+#: ../tags/0.06/simple-download-monitor.php:432
+#: ../tags/0.07/simple-download-monitor.php:447
+#: ../trunk/simple-download-monitor.php:557
+#, php-format
+msgid "Total number of downloads: <strong>%d</strong>."
+msgstr "Общее число загрузок: <strong>%d</strong>."
+
+#: ../tags/0.05/simple-download-monitor.php:442
+#: ../tags/0.06/simple-download-monitor.php:444
+#: ../tags/0.07/simple-download-monitor.php:459
+#: ../trunk/simple-download-monitor.php:573
+msgid "Date"
+msgstr "Данные"
+
+#: ../tags/0.05/simple-download-monitor.php:443
+#: ../tags/0.06/simple-download-monitor.php:445
+#: ../tags/0.07/simple-download-monitor.php:460
+#: ../trunk/simple-download-monitor.php:574
+msgid "IP address"
+msgstr "IP адрес"
+
+#: ../tags/0.05/simple-download-monitor.php:444
+#: ../tags/0.06/simple-download-monitor.php:446
+#: ../tags/0.07/simple-download-monitor.php:461
+#: ../trunk/simple-download-monitor.php:575
+msgid "Referer"
+msgstr "Переход"
+
+#: ../tags/0.05/simple-download-monitor.php:445
+#: ../tags/0.06/simple-download-monitor.php:447
+#: ../tags/0.07/simple-download-monitor.php:462
+#: ../trunk/simple-download-monitor.php:576
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: ../tags/0.05/simple-download-monitor.php:474
+#: ../tags/0.06/simple-download-monitor.php:476
+#: ../tags/0.07/simple-download-monitor.php:491
+#: ../trunk/simple-download-monitor.php:614
+msgid "Return to full list."
+msgstr "Вернуться ко всему списку"
+
+#: ../tags/0.07/simple-download-monitor.php:245
+#: ../trunk/simple-download-monitor.php:246
+msgid "Inline files"
+msgstr "Список в строку"
+
+#: ../tags/0.07/simple-download-monitor.php:246
+#: ../trunk/simple-download-monitor.php:247
+msgid "Files whose names match this regular expression will be displayed inline (within a HTML page) rather than downloaded."
+msgstr "Файлы, чьи имена соответствуют этому регулярное выражение будет отображаться Inline (в пределах страницы HTML), а не загружен."
+
+#: ../tags/0.07/simple-download-monitor.php:247
+#: ../trunk/simple-download-monitor.php:248
+msgid "By default, this value is empty - no files will appear inline, all will be downloaded. You may want to place something like <code>\\.(jpe?g|gif|png|swf)$</code> here to make images and Flash videos appear inline."
+msgstr "По умолчанию, это значение пусто - файлы не появятся Inline, все будет загружен. Вы можете поставить что-то вроде <code>\\.(jpe?g|gif|png|swf)$</code> Здесь, чтобы изображения и флэш-ролики появятся в линию."
+
+#: ../tags/0.07/simple-download-monitor.php:248
+#: ../trunk/simple-download-monitor.php:249
+msgid "Note: Unlike the options above, nothing is implied in this regular expression. You <em>must</em> use an explicit <code>\\.</code> to denote \"start of extension\", you <em>must</em> use an explicit <code>$</code> to mark \"end of filename\", etc."
+msgstr "Примечание: В отличие от приведенных выше вариантов, ничего в данном случае подразумевают регулярное выражение. Вы<em>must</em> use an explicit <code>\\.</code> to denote \"start of extension\", you <em>must</em> use an explicit <code>$</code> to mark \"end of filename\", etc."
+
+#: ../trunk/simple-download-monitor.php:520
+#: ../trunk/simple-download-monitor.php:599
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../trunk/simple-download-monitor.php:528
+#: ../trunk/simple-download-monitor.php:607
+msgid "Delete Checked"
+msgstr "Удалить отмеченное"
+
+#: ../trunk/simple-download-monitor.php:529
+#: ../trunk/simple-download-monitor.php:610
+msgid "Delete All"
+msgstr "Удалить все"
+
+#: ../trunk/simple-download-monitor.php:529
+#: ../trunk/simple-download-monitor.php:610
+msgid "Yes, I am sure"
+msgstr "Да, я уверен"
+

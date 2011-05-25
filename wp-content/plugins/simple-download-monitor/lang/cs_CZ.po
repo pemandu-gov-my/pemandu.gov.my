@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Download Monitor v0.04\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-06 12:13+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pepak <pepak@pepak.net>\n"
+"Language-Team: Pepak <pepak@pepak.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../simple-download-monitor.php:418
+#: ../simple-download-monitor.php:852
+msgid "Simple Download Monitor options"
+msgstr "Simple Download Monitor - nastavení"
+
+#: ../simple-download-monitor.php:419
+msgid "Access rights"
+msgstr "Přístupová práva"
+
+#: ../simple-download-monitor.php:420
+msgid "You can set up user rights required to access various functions of Simple Download Monitor. Rights are assigned through capabilities (see <a href=\"http://codex.wordpress.org/Roles_and_Capabilities#Roles\">Roles and Capabilities</a> in WordPress Codex). Predefined values are <strong>read</strong> (\"any registered user\") for displaying stats, <strong>delete_users</strong> (\"administrator\") for reseting stats and <strong>manage_options</strong> (\"administrator\") for changing options."
+msgstr "Zde můžete nastavit uživatelská práva potřebná pro přístup k jednotlivým funkcím Simple Download Monitoru. Práva jsou definována prostřednictvím schopností (capabilities, viz <a href=\"http://codex.wordpress.org/Roles_and_Capabilities#Roles\">Roles and Capabilities</a> ve WordPress Codex). Výchozí hodnoty jsou <strong>read</strong> (\"každý registrovaný uživatel) pro zobrazení statistik, <strong>delete_users</strong> (\"administrátor\") pro mazání statistik a <strong>manage_options</strong> (\"administrátor\") pro změnu nastavení."
+
+#: ../simple-download-monitor.php:421
+msgid "Capability required for viewing download stats:"
+msgstr "Schopnost (capability) pro zobrazení statistik:"
+
+#: ../simple-download-monitor.php:423
+msgid "Capability required for reseting download stats:"
+msgstr "Schopnost (capability) pro smazání statistik:"
+
+#: ../simple-download-monitor.php:425
+msgid "Capability required for setting SDMON options:"
+msgstr "Schopnost (capability) pro nastavení:"
+
+#: ../simple-download-monitor.php:427
+msgid "Allowed directories"
+msgstr "Povolené adresáře"
+
+#: ../simple-download-monitor.php:428
+msgid "Only requested files whose full names (relative to document root) start with this regular expression will be processed. It is strongly recommended to place all downloadable files (and ONLY downloadable files) into a designated directory and then placing that directory's name followed by a slash here. It is possible to use the power of PREG to allow multiple directories, but make sure there are ONLY files which you are comfortable with malicious users downloading. Do not EVER allow directories which contain PHP files here! That could lead to disclosure of sensitive data, including username and password used to connect to WordPress database."
+msgstr "Zpracovávány budou pouze soubory, jejichž plná jména (relativní vůči kořenovému adresáři webu) začínají tímto regulárním výrazem. Silně doporučuji umístit všechny stažitelné soubory (a JENOM stažitelné soubory) do jednoho určeného adresáře a vepsat sem název tohoto adresáře zakončený lomítkem. Lze také využít všech možností, které dává PREG, pro povolení více adresářů, ale dejte si pozor, ať v nich jsou JEDINĚ soubory, u kterých vám nevadí, když si je stáhne útočník. NIKDY do těchto adresářů neukládejte žádné PHP soubory! To by mohlo vést k zveřejnění citlivých dat, včetně uživatelského jména a hesla pro připojení k databázi."
+
+#: ../simple-download-monitor.php:429
+msgid "Default value is <code>files/</code>, which only allows download from /files directory (the leading <code>/</code> is implicit)."
+msgstr "Výchozí hodnota je <code>files/</code>, která dovolí stahovat pouze soubory z adresáře /files (úvodní <code>/</code> je dosazeno automaticky)."
+
+#: ../simple-download-monitor.php:431
+msgid "Allowed extensions"
+msgstr "Povolené přípony"
+
+#: ../simple-download-monitor.php:432
+msgid "Only files with extensions matching this regular expressions will be processed. This is another important security value. Make sure you only add extensions which are safe for malicious users to have, e.g. archives and possibly images. Do NOT use any expression that could allow a user to download PHP files, even if you think it safe given the Allowed Directories option above."
+msgstr "Zpracovávány budou pouze soubory, jejichž přípony odpovídají tomuto regulárnímu výrazu. Jde o další důležitý bezpečnostní prvek. Dejte si pozor, ať jsou zde uvedeny pouze takové přípony, které nemohou být zneužity útočníky, tzn. komprimované archívy a případně obrázky. NEPOUŽÍVEJTE výrazy, které by mohly uživateli dovolit download PHP souborů, ani kdyby tyto soubory vylučovalo nastavení \"Povolené adresáře\" výše."
+
+#: ../simple-download-monitor.php:433
+msgid "Default value is <code>zip|rar|7z</code> which only allows download of files ending with <code>.zip</code>, <code>.rar</code> and <code>.7z</code> (the leading <code>.</code> is implicit)."
+msgstr "Výchozí hodnota je <code>zip|rar|7z</code>, která povolí pouze stahování souborů s příponou <code>.zip</code>, <code>.rar</code> a <code>.7z</code> (úvodní <code>.</code> je dosazena automaticky)."
+
+#: ../simple-download-monitor.php:435
+msgid "Inline files"
+msgstr "Soubory pro inline zobrazení"
+
+#: ../simple-download-monitor.php:436
+msgid "Files whose names match this regular expression will be displayed inline (within a HTML page) rather than downloaded."
+msgstr "Soubory, které vyhovují tomuto regulárnímu výrazu, budou zobrazeny inline (jako objekt - např. obrázek nebo video - uvnitř HTML stránky) místo aby se stahovaly."
+
+#: ../simple-download-monitor.php:437
+msgid "By default, this value is empty - no files will appear inline, all will be downloaded. You may want to place something like <code>\\.(jpe?g|gif|png|swf)$</code> here to make images and Flash videos appear inline."
+msgstr "Výchozí hodnotou je prázdný řetězec - všechny soubory se budou stahovat, žádný nebude zobrazen inline. Vepište sem něco jako <code>\\.(jpe?g|gif|png|swf)$</code> pro zobrazování obrázků a Flashů inline."
+
+#: ../simple-download-monitor.php:438
+msgid "Note: Unlike the options above, nothing is implied in this regular expression. You <em>must</em> use an explicit <code>\\.</code> to denote \"start of extension\", you <em>must</em> use an explicit <code>$</code> to mark \"end of filename\", etc."
+msgstr "Pozn.: Narozdíl od nastavení uvedených výše se do tohoto regulárního výrazu nic nedoplňuje. Pokud chcete vyznačit \"začátek přípony\", <em>musíte</em> sem napsat <code>\\.</code>; pokud chcete vyznačit \"konec názvu souboru\", <em>musíte</em> sem napsat <code>$</code>, a podobně."
+
+#: ../simple-download-monitor.php:439
+msgid "Also note that this plugin uses PCRE-compatible regular expressions, NOT the better-known POSIX-compatible regular expressions. As a result, a valid regular expression must be at least three characters long - separator twice, and at least one character for a meaningful r.e."
+msgstr "Dále upozorňuji, že plugin používá PCRE-kompatibilní regulární výrazy a ne známější POSIX-kompatibilní. Z tohoto důvodu je vyžadováno, aby regulární výraz byl aspoň tři znaky dlouhý - dva znaky na dva výskyty oddělovače a aspoň jeden znak pro smysluplný r.e."
+
+#: ../simple-download-monitor.php:441
+msgid "Store detailed logs?"
+msgstr "Ukládat detailní záznamy?"
+
+#: ../simple-download-monitor.php:442
+msgid "If detailed logs are allowed, various information (including exact time of download, user's IP address, referrer etc.) is stored. This can fill your database quickly if you have only a little space or a lot of popular downloads. Otherwise just the total numbers of downloads are stored, consuming significantly less space."
+msgstr "Pokud je tato volba zapnuta, ukládají se detailní informace (jako přesný čas, IP adresa uživatele nebo referer) o každém downloadu. To může rychle zahltit databázi, pokud máte jen málo prostoru nebo populární downloady. Normálně se ukládá jen celkový počet stažení, který zabírá podstatně méně místa."
+
+#: ../simple-download-monitor.php:443
+msgid "Use detailed statistics."
+msgstr "Používat detailní statistiky"
+
+#: ../simple-download-monitor.php:444
+msgid "Ignored users"
+msgstr "Ignorovaní uživatelé"
+
+#: ../simple-download-monitor.php:445
+msgid "List of users whose downloads are not monitored. Separate multiple users with pipe character <code>|</code>. It is useful to prevent administrator damaging the statistics by testing that downloads work."
+msgstr "Seznam uživatelů, jejichž downloady nejsou sledovány. Uživatelská jména oddělujte znakem roury <code>|</code>. Funkce se hodí pro administrátory, kteří chtějí ověřovat funkčnost odkazů, ale nepřejí si, aby se jejich testy zaznamenávaly do statistik."
+
+#: ../simple-download-monitor.php:447
+msgid "Ignore quick re-downloads"
+msgstr "Ignorovat rychlé opakované downloady"
+
+#: ../simple-download-monitor.php:448
+msgid "If one IP address requests the same download several times within a given time interval, only the first time will be recorded. If a zero or a negative value is entered, all downloads will get recorded regardless of how quickly they occur after each other."
+msgstr "Pokud se jedna IP adresa pokusí stáhnout jeden soubor několikrát po sobě v daném časovém intervalu, zaznamená se do statistik jen první pokus. Pokud je rozpětí stanoveno na nula nebo záporné číslo, budou se zaznamenávat všechny downloady, bez ohledu na to, jak rychle po sobě následují."
+
+#: ../simple-download-monitor.php:449
+msgid "seconds"
+msgstr "sekund"
+
+#: ../simple-download-monitor.php:450
+msgid "Update settings"
+msgstr "Uložit nastavení"
+
+#: ../simple-download-monitor.php:571
+msgid "First"
+msgstr "První"
+
+#: ../simple-download-monitor.php:572
+msgid "Previous"
+msgstr "Předchozí"
+
+#: ../simple-download-monitor.php:579
+msgid "Next"
+msgstr "Další"
+
+#: ../simple-download-monitor.php:580
+msgid "Last"
+msgstr "Poslední"
+
+#: ../simple-download-monitor.php:678
+#: ../simple-download-monitor.php:755
+#: ../simple-download-monitor.php:852
+#: ../simple-download-monitor.php:853
+msgid "Simple Download Monitor"
+msgstr "Simple Download Monitor"
+
+#: ../simple-download-monitor.php:679
+msgid "Nonexistent downloads"
+msgstr "Neexistující soubory"
+
+#: ../simple-download-monitor.php:679
+msgid "All downloads"
+msgstr "Všechny downloady"
+
+#: ../simple-download-monitor.php:680
+msgid "Show all downloads"
+msgstr "Zobrazit všechny soubory"
+
+#: ../simple-download-monitor.php:680
+msgid "Show nonexistent downloads"
+msgstr "Zobrazit neexistující soubory"
+
+#: ../simple-download-monitor.php:695
+msgid "Filename"
+msgstr "Název souboru"
+
+#: ../simple-download-monitor.php:696
+msgid "Download count"
+msgstr "Počet stažení"
+
+#: ../simple-download-monitor.php:697
+msgid "Last date"
+msgstr "Poslední datum"
+
+#: ../simple-download-monitor.php:720
+msgid "Reset this statistic"
+msgstr "Vymazat tuto statistiku"
+
+#: ../simple-download-monitor.php:728
+msgid "Reset checked statistics"
+msgstr "Vymazat označené statistiky"
+
+#: ../simple-download-monitor.php:729
+msgid "Reset all statistics"
+msgstr "Vymazat všechny statistiky"
+
+#: ../simple-download-monitor.php:729
+#: ../simple-download-monitor.php:826
+msgid "Yes, I am sure"
+msgstr "Ano, chci to udělat"
+
+#: ../simple-download-monitor.php:756
+#, php-format
+msgid "Detailed data for <strong>%s</strong>:"
+msgstr "Detailní data pro <strong>%s</strong>:"
+
+#: ../simple-download-monitor.php:757
+#, php-format
+msgid "Total number of downloads: <strong>%d</strong>."
+msgstr "Celkový počet stažení: <strong>%d</strong>."
+
+#: ../simple-download-monitor.php:774
+msgid "Date"
+msgstr "Datum"
+
+#: ../simple-download-monitor.php:775
+msgid "Country"
+msgstr "Země"
+
+#: ../simple-download-monitor.php:776
+msgid "IP address"
+msgstr "IP adresa"
+
+#: ../simple-download-monitor.php:777
+msgid "Referer"
+msgstr "Referer"
+
+#: ../simple-download-monitor.php:778
+msgid "Username"
+msgstr "Uživatel"
+
+#: ../simple-download-monitor.php:815
+msgid "Delete this statistic"
+msgstr "Vymazat tuto statistiku"
+
+#: ../simple-download-monitor.php:823
+msgid "Delete checked statistics"
+msgstr "Vymazat označené statistiky"
+
+#: ../simple-download-monitor.php:826
+msgid "Delete all statistics"
+msgstr "Vymazat všechny statistiky"
+
+#: ../simple-download-monitor.php:830
+msgid "Return to full list."
+msgstr "Návrat do úplného seznamu"
+
+#~ msgid "Delete"
+#~ msgstr "Smazat"
+#~ msgid "Delete All"
+#~ msgstr "Smazat všechny"
+
