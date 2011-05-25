@@ -8,7 +8,7 @@
 <?php if(!isset($_GET['p']) && !isset($_GET['newsDetailId']) && !isset($_GET['feedback'])&& !isset($_GET['readmore'])){?>
 		<div id="slider_area">
 				<div id="slide-text">
-					<span id="focus"> FOKUS UTAMA </span>
+					<span id="focus"> IN FOCUS </span>
 					<div id="slide-caption">
 					<?php
 					$min_id = $wpdb->get_row("SELECT  max(id) as small_id FROM `pm_slider`",ARRAY_A); 
@@ -19,7 +19,7 @@
 					?>
 						<div <?php if($slider_arr['id']==$smallId){?>class="current" <?php }?>>
 						<?php echo substr($slider_arr['slider_content'],0,175)."..."; ?><br /><br />
-						<span class="readmore"><a href="<?php echo bloginfo('siteurl'); ?>?readmore=<?php echo $slider_arr['id']; ?>" style="color:#99BCCB;"> + Seterusnya</a></span>
+						<span class="readmore"><a href="<?php echo bloginfo('siteurl'); ?>?readmore=<?php echo $slider_arr['id']; ?>" style="color:#99BCCB;"> + Read more</a></span>
 						</div>
 					<?php }?>
 					</div>
