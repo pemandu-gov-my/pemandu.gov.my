@@ -1,0 +1,5 @@
+cd /home/pemandu1/domains/pemandu.gov.my/public_html/gtp
+git checkout .
+git clean -f
+git pull origin master
+
