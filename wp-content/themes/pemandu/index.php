@@ -69,7 +69,7 @@
 ?>
 
 <?php echo '<div>' ?>
-<a href="http://www.pemandu.gov.my/gtp/?readmore=33"><img src="http://www.pemandu.gov.my/gtp/wp-content/uploads/2011/04/gtpThinBanner.jpg"></a>
+<a href="http://www.pemandu.gov.my/gtp/?p=931"><img src="http://www.pemandu.gov.my/gtp/wp-content/uploads/2011/04/gtpThinBanner.jpg"></a>
 <?php echo '</div>' ?> 
 
 <script type="text/javascript">
