@@ -180,7 +180,7 @@ if(isset($_POST['submit'])){
 
 				<!--<object height="150" width="170"><param name="movie" value="<?php echo str_replace("watch?v=","v/",$arrvideoo['youtube']['previewurl']); ?>"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="<?php echo str_replace("watch?v=","v/",$arrvideoo['youtube']['previewurl']); ?>" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" height="150" width="170" wmode="opaque"></embed></object>-->
 
-				<p><br/>Overview of GTP in conjunction with the GTP Annual Report 2010 Launch.</p>
+				<p><br/>Dato' Sri Idris Jala's interview with the Malaysian Business Magazine.</p>
 
 				<!--<span class="readmore">+ View all</span>	-->
 
