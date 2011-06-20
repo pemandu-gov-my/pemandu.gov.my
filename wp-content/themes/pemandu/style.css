@@ -1446,3 +1446,19 @@ font-weight:bold;
 	padding:5px 5px 5px 0px;
 }
 	
+	
+/* Video Grid */
+
+.gtp_video {
+	width: 240px;
+	float: left;
+	margin: 0 10px 20px 0;
+}
+
+.gtp_video .video-thumbnail {
+	margin-top: 10px;
+}
+
+.gtp_video h3.entry-title {
+	color: #000;
+}
