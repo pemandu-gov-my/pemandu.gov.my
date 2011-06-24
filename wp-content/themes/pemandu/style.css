@@ -1459,6 +1459,10 @@ font-weight:bold;
 	margin-top: 10px;
 }
 
+.gtp_video .video-thumbnail object {
+	height: 205 !important;
+}
+
 .gtp_video h3.entry-title {
 	color: #000;
 	height: 32px;
