@@ -1457,10 +1457,7 @@ font-weight:bold;
 
 .gtp_video .video-thumbnail {
 	margin-top: 10px;
-}
-
-.gtp_video .video-thumbnail object {
-	height: 205 !important;
+	height: 205px;
 }
 
 .gtp_video h3.entry-title {
