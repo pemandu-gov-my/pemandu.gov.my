@@ -268,7 +268,10 @@ if(isset($_POST['submit'])){
 					}
 					?>
 
+					<?php $vidcount++; ?>	
 					<?php endwhile; ?>
+					
+					</div> <!-- /.row -->
 
 					<?php gtp_video_pagination( $wp_query, 'http://www.pemandu.gov.my/gtp/?page_id=43' ) ?>
 			
