@@ -93,7 +93,7 @@ function gtp_p75_videoAdminInit()
 {
 	if( function_exists("add_meta_box") )
 	{
-		add_meta_box("p75-video-posting", "Post Video Options", "p75_videoPosting", "video", "advanced");
+		add_meta_box("p75-video-posting", "Post Video Options", "p75_videoPosting", "gtp_video", "advanced");
 	}
 	
 	add_options_page('Simple Video Embedder Options', 'Video Options', 8, 'videooptions', 'p75_videoOptionsAdmin');
