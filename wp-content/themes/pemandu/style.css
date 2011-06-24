@@ -1449,6 +1449,11 @@ font-weight:bold;
 	
 /* Video Grid */
 
+.media_content_section .video-row {
+	float: left;
+	margin-bottom: 20px;
+}
+
 .gtp_video {
 	width: 240px;
 	float: left;
@@ -1457,7 +1462,6 @@ font-weight:bold;
 
 .gtp_video .video-thumbnail {
 	margin-top: 10px;
-	height: 205px;
 }
 
 .gtp_video h3.entry-title {
