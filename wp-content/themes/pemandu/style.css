@@ -1461,4 +1461,6 @@ font-weight:bold;
 
 .gtp_video h3.entry-title {
 	color: #000;
+	height: 32px;
+	overflow: hidden;
 }
