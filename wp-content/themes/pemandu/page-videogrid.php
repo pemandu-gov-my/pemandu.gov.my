@@ -240,6 +240,8 @@ if(isset($_POST['submit'])){
 						$wp_query->query('post_type=gtp_video&posts_per_page=6'.'&paged='.$paged);
 					?>
 
+					<div class="video-row">
+					<?php $vidcount = 1; ?>
 					<?php while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
 						
 						<div <?php post_class(); ?>>
@@ -256,6 +258,16 @@ if(isset($_POST['submit'])){
 						</div>
 						
 						</div>
+
+					<?php
+					if ( $vidcount % 2 ) {
+						// odd
+					} 
+					else {
+						echo '</div><div class="video-row">';
+					}
+					?>
+
 					<?php endwhile; ?>
 
 					<?php gtp_video_pagination( $wp_query, 'http://www.pemandu.gov.my/gtp/?page_id=43' ) ?>
