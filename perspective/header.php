@@ -42,12 +42,14 @@ body
 {
     float:right;
     background:#efefef;
-    margin:10 10 0 0;
     padding:10px;
     width:100px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
+    bottom:0;
+    right:0;
+    position:absolute;
 
     background-image: -webkit-gradient(
     linear,
@@ -68,13 +70,15 @@ body
 {
     float:right;
     background:#efefef;
-    margin:10 10 0 0;
     padding:10px;
     width:100px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
     color:white;
+    bottom:0;
+    right:0;
+    position:absolute;
 
     background-image: -webkit-gradient(
     linear,
@@ -91,9 +95,9 @@ body
 }
 </style>
 
-<div id="header">
+<div id="header" style="position:relative">
     <img src="img/header_perspective.png">
-    <div class="tabs">Videos</div>
-    <div class="tabs">Twitter</div>
-    <div class="tabs_on">Essays</div>
+    <div class="tabs" style="right:20">Videos</div>
+    <div class="tabs" style="right:160">Twitter</div>
+    <div class="tabs_on" style="right:300">Essays</div>
 </div>
