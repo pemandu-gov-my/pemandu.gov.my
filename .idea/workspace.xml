@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc67e9b0-f4fe-4b5f-8fa8-66ab35a2865f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/perspective/img/obama.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/perspective/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/perspective/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/perspective/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perspective/header.php" afterPath="$PROJECT_DIR$/perspective/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perspective/index.php" afterPath="$PROJECT_DIR$/perspective/index.php" />
     </list>
     <ignored path="pemandu.gov.my.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/perspective/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="13" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+            <state line="4" column="22" selection-start="51" selection-end="51" vertical-scroll-proportion="0.101341285">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/perspective/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="52" selection-start="310" selection-end="310" vertical-scroll-proportion="0.12917933">
+            <state line="26" column="43" selection-start="3923" selection-end="3923" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,8 +71,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/perspective/footer.php" />
-        <option value="$PROJECT_DIR$/perspective/header.php" />
         <option value="$PROJECT_DIR$/perspective/index.php" />
+        <option value="$PROJECT_DIR$/perspective/header.php" />
       </list>
     </option>
   </component>
@@ -260,16 +258,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perspective/header.php">
+    <entry file="file://$PROJECT_DIR$/perspective/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+        <state line="26" column="43" selection-start="3923" selection-end="3923" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perspective/index.php">
+    <entry file="file://$PROJECT_DIR$/perspective/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="52" selection-start="310" selection-end="310" vertical-scroll-proportion="0.12917933">
+        <state line="4" column="22" selection-start="51" selection-end="51" vertical-scroll-proportion="0.101341285">
           <folding />
         </state>
       </provider>

@@ -24,7 +24,7 @@
                     <b>Author:</b><br/>
                     Barack Obama
                     <br/><br/>
-                    <b>Background:</b>
+                    <b>Background:</b><br/>
                     Barack Hussein Obama II  born August 4, 1961) is the 44th and current President of the United States. He is the first African American to hold the office. Obama previously served as a United States senator from Illinois, from January 2005 until he resigned following his victory in the 2008 presidential election.<br/><br/>
                 </td>
             </table>

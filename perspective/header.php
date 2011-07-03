@@ -2,7 +2,7 @@
 body
 {
     margin:0;
-    font-family: "century gothic",arial,tahoma;
+    font-family: arial;
     color: #666666;
 }
 #header
