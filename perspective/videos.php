@@ -1,4 +1,4 @@
-<?php $tab_on = "essays"; require_once "header.php" ?>
+<?php $tab_on = "videos"; require_once "header.php" ?>
 <table width="100%" cellpadding="0" cellspacing="0">
     <td width="70%">
         <div style="padding:20">

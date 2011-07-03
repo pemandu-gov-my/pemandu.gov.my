@@ -5,6 +5,22 @@ body
     font-family: arial;
     color: #666666;
 }
+
+a
+{
+    text-decoration: none;
+    color: #666666;
+}
+
+.bubble
+{
+    background:#efefef;
+    border-radius: 20px;
+    padding:20px;
+    margin:0 0 20 0;
+}
+
+
 #header
 {
     background-image: -webkit-gradient(
@@ -93,11 +109,16 @@ body
     rgb(168,168,168) 59%
     );
 }
+
+.tabs_on a
+{
+    color:white;
+}
 </style>
 
 <div id="header" style="position:relative">
     <img src="img/header_perspective.png">
-    <div class="tabs" style="right:20">Videos</div>
-    <div class="tabs" style="right:160">Twitter</div>
-    <div class="tabs_on" style="right:300">Essays</div>
+    <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:20"><a href="videos.php">Videos</a></div>
+    <div class="tabs<?php if($tab_on == "twitter") echo "_on" ?>" style="right:160"><a href="twitter.php">Twitter</a></div>
+    <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:300"><a href="index.php">Essays</a></div>
 </div>
