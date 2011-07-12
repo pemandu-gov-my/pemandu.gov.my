@@ -4,6 +4,13 @@ body
     margin:0;
     font-family: arial;
     color: #666666;
+    background: #dadbdb;
+}
+
+h2
+{
+    margin:0;
+    padding:0;
 }
 
 a
@@ -23,6 +30,9 @@ a
 
 #header
 {
+    position:relative;
+    width:80%;
+
     background-image: -webkit-gradient(
     linear,
     left bottom,
@@ -52,6 +62,7 @@ a
     rgb(144,151,194) 57%
     );
     height:50px;
+    width:988;
 }
 
 .tabs
@@ -59,13 +70,14 @@ a
     float:right;
     background:#efefef;
     padding:10px;
-    width:100px;
+    width:80px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
     bottom:0;
     right:0;
     position:absolute;
+    font-size:12px;
 
     background-image: -webkit-gradient(
     linear,
@@ -84,10 +96,11 @@ a
 
 .tabs_on
 {
+    font-size:12px;
     float:right;
     background:#efefef;
     padding:10px;
-    width:100px;
+    width:80px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
@@ -116,9 +129,21 @@ a
 }
 </style>
 
-<div id="header" style="position:relative">
-    <img src="img/header_perspective.png">
-    <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:20"><a href="videos.php">Videos</a></div>
-    <div class="tabs<?php if($tab_on == "twitter") echo "_on" ?>" style="right:160"><a href="twitter.php">Twitter</a></div>
-    <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:300"><a href="index.php">Essays</a></div>
-</div>
+<div style="height:25"></div>
+<table width="1000" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+        <td height="58" width="1000" background="img/header-perspectives.png">
+        <div style="position:relative;height:58;width:1000;">
+            <div class="tabs<?php if($tab_on == "twitter") echo "_on" ?>" style="right:230"><a href="twitter.php">Twitter</a></div>
+            <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:340"><a href="index.php">Essays</a></div>
+            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:450"><a href="wuffl.php">W.U.F.F.L</a></div>
+            <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:560"><a href="videos.php">Videos</a></div>
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+<table width="1000" cellpadding="0" cellspacing="0">
+    <td width="8" background="img/left-shadow.png">&nbsp;</td>
+    <td bgcolor="white">
