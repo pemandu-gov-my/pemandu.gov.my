@@ -134,10 +134,10 @@ a
     <tr>
         <td height="58" width="1000" background="img/header-perspectives.png">
         <div style="position:relative;height:58;width:1000;">
-            <div class="tabs<?php if($tab_on == "twitter") echo "_on" ?>" style="right:230"><a href="twitter.php">Twitter</a></div>
-            <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:340"><a href="index.php">Essays</a></div>
-            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:450"><a href="wuffl.php">W.U.F.F.L</a></div>
-            <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:560"><a href="videos.php">Videos</a></div>
+            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php">W.U.F.F.L.</a></div>
+            <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:340"><a href="videos.php">Videos</a></div>
+            <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:450"><a href="essays.php">Essays</a></div>
+            <div class="tabs<?php if($tab_on == "home") echo "_on" ?>" style="right:560"><a href="index.php">Home</a></div>
         </div>
         </td>
     </tr>
