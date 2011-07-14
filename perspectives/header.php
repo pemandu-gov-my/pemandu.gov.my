@@ -132,7 +132,7 @@ a
 <div style="height:25"></div>
 <table width="1000" cellpadding="0" cellspacing="0" align="center">
     <tr>
-        <td height="58" width="1000" background="img/header-perspectives.png">
+        <td height="58" width="1000" background="img/header-perspectives2.png">
         <div style="position:relative;height:58;width:1000;">
             <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php">W.U.F.F.L.</a></div>
             <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:340"><a href="videos.php">Videos</a></div>

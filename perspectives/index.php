@@ -3,6 +3,7 @@
         <table width="100%" cellpadding="0" cellspacing="0">
             <td width="75%">
                 <div style="padding:20">
+<h2>Some Title Here</h2><br/>
 This column serves to highlight heartfelt messages from Malaysians across all walks of life based on
 what they wish for the country to be. The collection of messages is by Malaysians who have not given up
 hope for the country and continue to strive for a better tomorrow.
@@ -13,7 +14,7 @@ The characteristics of the contributors cut across individuals who:
 <li>Have been working abroad and desire to return to Malaysia
 <li>Want to contribute to the overall social and infrastructure health of the country
 <li>Seek to make changes in either the administrative, governance or policies of the country through positive affirmative action
-<li>Provide constructive feedback, recommendations, suggestions or examples that may improve the country’s governance further, so as to ensure Malaysia stays relevant to the bright and dedicated populace
+<li>Provide constructive feedback, recommendations, suggestions or examples that may improve the country's governance further, so as to ensure Malaysia stays relevant to the bright and dedicated populace
 <li>Ability to see the positives of being a Malaysian amidst the political noise which is sometimes irrelevant to our lives
 <li>Simply want to see difference in the country
 </ul>
@@ -32,7 +33,7 @@ You can also touch on topics related to various current issues and the transform
 Send in to xxxx@pemandu.gov.my
                 </div>
             </td>
-            <td width="25%" valign="top" align="right" bgcolor="#efefef">
+            <td width="25%" valign="top" align="right" bgcolor="#2e2c4a">
                 &nbsp;
             </td>
         </table>

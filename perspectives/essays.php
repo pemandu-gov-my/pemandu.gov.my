@@ -20,12 +20,12 @@
                     Like everything else, a bright future awaits us. There is room for improvement and I look forward to it.
                 </div>
             </td>
-            <td width="25%" valign="top" align="right" bgcolor="#efefef">
-                <div style="padding:20" align="center">
+            <td width="25%" valign="top" align="right" bgcolor="#2e2c4a">
+                <div style="padding:20;color:white" align="center">
                     <img style="border:1px solid black;" src="img/louisawon.png">
                     <br/><br/>
                     <b>Louisa Won</b>
-                    <div style="font-size:12px;padding:20;text-align:left">
+                    <div style="font-size:12px;padding:20;text-align:left;color:white">
                         Kicking her tenth year in the land down under, Louisa Won is an Account Manager for a outdoor media company in Melbourne. She started her career in Government Media and Subscription TV almost four years ago. She is known as the "Translator" amongst her co-workers for her ability to converse in various Chinese dialects with her counterparts in Hong Kong.  She lives and breathes 4 Fs- Family, Friends, Food and Fitness. Ever delighted to speak about her home country, she hopes to one day return to KL and share her Aussie experience with her homies.
                     </div>
                 </div>
