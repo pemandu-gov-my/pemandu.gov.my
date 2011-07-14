@@ -3,6 +3,8 @@
         <table width="100%" cellpadding="0" cellspacing="0">
             <td width="75%">
                 <div style="padding:20">
+                    <h2>My Perspective</h2>
+                    <br/>
                     I sip on this delicately brewed long black whilst waiting for a client. Next to me was a table of what seem to be uni students- the oversized bags, blocks of books and a familiar something that caught my attention. I couldn't help but eaves-drop the conversation that was taking place. The familiar words of 'Changkat' and 'O.U' instantly brought the memory of home to mind. They'll have to be my fellow countrymen or 'homies', as I usually regard my Malaysian friends here. Approaching my tenth year of stay in Australia, I've noticed a rapidly growing number of my 'homies' living here. A quick Google research tells me that the number of Malaysians Australian to-date exceeds a large six figure number- if I may quote, "unrealistically high"github.
                     <br/><br/>
                     In the last six months, I have made several short trips home and I can never get enough. Like meeting your boyfriend's parents for the first time, there is a slight air of nervousness and a plethora of questions thrown at me every time I am present at family reunions- When are you coming back again? Do you really like Australia that much? Any plans to return... for good? Noticing the deepening of lines across my dear parents' foreheads and understanding their hardship, a flame remains alight at my very core, moving me deeply and leaving me more determined each time.
@@ -24,7 +26,7 @@
                     <br/><br/>
                     <b>Louisa Won</b>
                     <div style="font-size:12px;padding:20;text-align:left">
-                        
+                        Kicking her tenth year in the land down under, Louisa Won is an Account Manager for a outdoor media company in Melbourne. She started her career in Government Media and Subscription TV almost four years ago. She is known as the "Translator" amongst her co-workers for her ability to converse in various Chinese dialects with her counterparts in Hong Kong.  She lives and breathes 4 Fs- Family, Friends, Food and Fitness. Ever delighted to speak about her home country, she hopes to one day return to KL and share her Aussie experience with her homies.
                     </div>
                 </div>
             </td>
