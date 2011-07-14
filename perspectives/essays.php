@@ -20,9 +20,9 @@
                     Like everything else, a bright future awaits us. There is room for improvement and I look forward to it.
                 </div>
             </td>
-            <td width="25%" valign="top" align="right" bgcolor="#2e2c4a">
+            <td width="21%" valign="top" align="right" bgcolor="#2e2c4a" style="background: url('img/bintik4.png');">
                 <div style="padding:20;color:white" align="center">
-                    <img style="border:1px solid black;" src="img/louisawon.png">
+                    <img style="border:1px solid black;" src="img/louisawon.png" width="100%">
                     <br/><br/>
                     <b>Louisa Won</b>
                     <div style="font-size:12px;padding:20;text-align:left;color:white">

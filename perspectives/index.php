@@ -33,7 +33,7 @@ You can also touch on topics related to various current issues and the transform
 Send in to xxxx@pemandu.gov.my
                 </div>
             </td>
-            <td width="25%" valign="top" align="right" bgcolor="#2e2c4a">
+            <td width="21%" valign="top" align="right" bgcolor="#2e2c4a" style="background: url('img/bintik4.png');">
                 &nbsp;
             </td>
         </table>

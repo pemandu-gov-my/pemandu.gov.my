@@ -49,20 +49,9 @@ a
 
 #footer
 {
-    background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.13, rgb(76,78,114)),
-    color-stop(0.57, rgb(144,151,194))
-    );
-    background-image: -moz-linear-gradient(
-    center bottom,
-    rgb(76,78,114) 13%,
-    rgb(144,151,194) 57%
-    );
+    background:#393a55;
     height:50px;
-    width:988;
+    width:984;
 }
 
 .tabs
@@ -132,8 +121,8 @@ a
 <div style="height:25"></div>
 <table width="1000" cellpadding="0" cellspacing="0" align="center">
     <tr>
-        <td height="58" width="1000" background="img/header-perspectives2.png">
-        <div style="position:relative;height:58;width:1000;">
+        <td height="58" width="1000" background="img/header-perspectives3.png">
+        <div style="position:relative;height:116;width:1000;">
             <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php">W.U.F.F.L.</a></div>
             <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:340"><a href="videos.php">Videos</a></div>
             <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:450"><a href="essays.php">Essays</a></div>
@@ -143,7 +132,8 @@ a
     </tr>
     <tr>
         <td>
-
 <table width="1000" cellpadding="0" cellspacing="0">
-    <td width="8" background="img/left-shadow.png">&nbsp;</td>
+    <td width="8" background="img/left-shadow.png" valign="top">
+        &nbsp;<div style="position:relative;left:-14;top:-20"><div style="position:absolute;"><img src="img/wing.png"></div></div>
+    </td>
     <td bgcolor="white">
