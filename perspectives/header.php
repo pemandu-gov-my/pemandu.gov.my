@@ -155,7 +155,7 @@ background: linear-gradient(top, rgba(207,231,250,1) 0%,rgba(128,182,247,1) 100%
     <tr>
         <td height="58" width="1000" background="img/header-perspectives4.png">
         <div style="position:relative;height:116;width:1000;">
-            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php">Wat U<br>Fighting 4 Lah</a></div>
+            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php" style="font-size:10px">Wat U<br>Fighting 4 Lah</a></div>
             <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:340"><a href="videos.php">Videos</a></div>
             <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:450"><a href="essays.php">Essays</a></div>
             <div class="tabs<?php if($tab_on == "home") echo "_on" ?>" style="right:560"><a href="index.php">Home</a></div>

@@ -3,7 +3,7 @@
         <table width="100%" cellpadding="0" cellspacing="0">
             <td width="75%">
                 <div style="padding:20;color:black;" class="gradient_blue">
-<h2>Some Title Here</h2><br/>
+<h2>What is it?</h2><br/>
 This column serves to highlight heartfelt messages from Malaysians across all walks of life based on
 what they wish for the country to be. The collection of messages is by Malaysians who have not given up
 hope for the country and continue to strive for a better tomorrow.
@@ -33,8 +33,12 @@ You can also touch on topics related to various current issues and the transform
 Send in to xxxx@pemandu.gov.my
                 </div>
             </td>
-            <td width="21%" valign="top" align="right" bgcolor="#2e2c4a" style="background: url('img/bintik4.png');">
-                &nbsp;
+            <td width="21%" valign="top" align="center" bgcolor="#2e2c4a" style="background: url('img/bintik4.png');">
+                <img width="80%" src="img/malaysia4.jpg" style="border:1px solid black" vspace="10"><br>
+                <img width="80%" src="img/malaysia1.jpg" style="border:1px solid black" vspace="10"><br>
+                <img width="80%" src="img/malaysia2.jpg" style="border:1px solid black" vspace="10"><br>
+                <img width="80%" src="img/malaysia3.jpg" style="border:1px solid black" vspace="10"><br>
+
             </td>
         </table>
 
