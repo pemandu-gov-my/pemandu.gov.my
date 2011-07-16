@@ -2,7 +2,7 @@
 
         <table width="100%" cellpadding="0" cellspacing="0">
             <td width="75%">
-                <div style="padding:20">
+                <div style="padding:20;color:black;" class="gradient_blue">
 <h2>Some Title Here</h2><br/>
 This column serves to highlight heartfelt messages from Malaysians across all walks of life based on
 what they wish for the country to be. The collection of messages is by Malaysians who have not given up

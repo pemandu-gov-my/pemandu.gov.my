@@ -2,7 +2,7 @@
 
         <table width="100%" cellpadding="0" cellspacing="0">
             <td width="75%">
-                <div style="padding:20">
+                <div style="padding:20;color:black;" class="yellow">
                     <h2>My Perspective</h2>
                     <br/>
                     I sip on this delicately brewed long black whilst waiting for a client. Next to me was a table of what seem to be uni students- the oversized bags, blocks of books and a familiar something that caught my attention. I couldn't help but eaves-drop the conversation that was taking place. The familiar words of 'Changkat' and 'O.U' instantly brought the memory of home to mind. They'll have to be my fellow countrymen or 'homies', as I usually regard my Malaysian friends here. Approaching my tenth year of stay in Australia, I've noticed a rapidly growing number of my 'homies' living here. A quick Google research tells me that the number of Malaysians Australian to-date exceeds a large six figure number- if I may quote, "unrealistically high"github.

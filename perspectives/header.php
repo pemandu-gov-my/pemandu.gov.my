@@ -2,8 +2,8 @@
 body
 {
     margin:0;
-    font-family: arial;
-    color: #666666;
+    font-family: 'century gothic';
+    
     background: #dadbdb;
 }
 
@@ -16,7 +16,7 @@ h2
 a
 {
     text-decoration: none;
-    color: #666666;
+    color: black;
 }
 
 .bubble
@@ -56,17 +56,7 @@ a
 
 .tabs
 {
-    float:right;
-    background:#efefef;
-    padding:10px;
-    width:80px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    text-align: center;
-    bottom:0;
-    right:0;
-    position:absolute;
-    font-size:12px;
+
 
     background-image: -webkit-gradient(
     linear,
@@ -80,12 +70,25 @@ a
     rgb(160,160,163) 13%,
     rgb(235,232,235) 57%
     );
-    
+
+ float:right;
+    padding:10px;
+    width:80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    bottom:0;
+    right:0;
+    position:absolute;
+    font-size:13px;
+    font-weight:bold;
+    color:black;
 }
 
 .tabs_on
 {
     font-size:12px;
+    font-weight:bold;
     float:right;
     background:#efefef;
     padding:10px;
@@ -112,18 +115,47 @@ a
     );
 }
 
+.gradient_grey
+{
+background: rgb(254,252,234); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,252,234,1)), color-stop(100%,rgba(241,218,54,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* W3C */
+}
+
+.yellow
+{
+    background: url('http://us.cdn2.123rf.com/168nwm/aptypkok/aptypkok0906/aptypkok090600372/5085472-texture-background-texture-of-yellow-paper.jpg')
+}
+
+.gradient_blue
+{
+background: rgb(207,231,250); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(207,231,250,1) 0%, rgba(128,182,247,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,231,250,1)), color-stop(100%,rgba(128,182,247,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(207,231,250,1) 0%,rgba(128,182,247,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(207,231,250,1) 0%,rgba(128,182,247,1) 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, rgba(207,231,250,1) 0%,rgba(128,182,247,1) 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#80b6f7',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, rgba(207,231,250,1) 0%,rgba(128,182,247,1) 100%); /* W3C */
+}
+
 .tabs_on a
 {
     color:white;
 }
 </style>
 
-<div style="height:25"></div>
+
 <table width="1000" cellpadding="0" cellspacing="0" align="center">
     <tr>
-        <td height="58" width="1000" background="img/header-perspectives3.png">
+        <td height="58" width="1000" background="img/header-perspectives4.png">
         <div style="position:relative;height:116;width:1000;">
-            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php">W.U.F.F.L.</a></div>
+            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php">Wat U<br>Fightin 4 Lah</a></div>
             <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:340"><a href="videos.php">Videos</a></div>
             <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:450"><a href="essays.php">Essays</a></div>
             <div class="tabs<?php if($tab_on == "home") echo "_on" ?>" style="right:560"><a href="index.php">Home</a></div>
