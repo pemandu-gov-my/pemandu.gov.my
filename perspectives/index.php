@@ -1,7 +1,7 @@
 <?php $tab_on = "home"; require_once "header.php" ?>
 
         <table width="100%" cellpadding="0" cellspacing="0">
-            <td width="75%">
+            <td width="75%" valign="top" class="gradient_blue">
                 <div style="padding:20;color:black;" class="gradient_blue">
 <h2>What is it?</h2><br/>
 This column serves to highlight heartfelt messages from Malaysians across all walks of life based on
@@ -34,6 +34,7 @@ Send in to xxxx@pemandu.gov.my
                 </div>
             </td>
             <td width="21%" valign="top" align="center" bgcolor="#2e2c4a" style="background: url('img/bintik4.png');">
+                <img width="80%" src="img/malaysia5.jpg" style="border:1px solid black" vspace="10"><br>
                 <img width="80%" src="img/malaysia4.jpg" style="border:1px solid black" vspace="10"><br>
                 <img width="80%" src="img/malaysia1.jpg" style="border:1px solid black" vspace="10"><br>
                 <img width="80%" src="img/malaysia2.jpg" style="border:1px solid black" vspace="10"><br>
