@@ -49,7 +49,7 @@ a
 
 #footer
 {
-    background:#393a55;
+    background:#343153;
     height:50px;
     width:984;
 }
@@ -72,7 +72,8 @@ a
     );
 
  float:right;
-    padding:10px;
+    height:50px;
+    padding:5px;
     width:80px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -87,11 +88,12 @@ a
 
 .tabs_on
 {
-    font-size:12px;
+    height:50px;
+    font-size:13px;
     font-weight:bold;
     float:right;
     background:#efefef;
-    padding:10px;
+    padding:5px;
     width:80px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -129,7 +131,7 @@ background: linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%)
 
 .yellow
 {
-    background: url('http://us.cdn2.123rf.com/168nwm/aptypkok/aptypkok0906/aptypkok090600372/5085472-texture-background-texture-of-yellow-paper.jpg')
+    background: url('img/yellowpaper.png')
 }
 
 .gradient_blue
@@ -155,7 +157,7 @@ background: linear-gradient(top, rgba(207,231,250,1) 0%,rgba(128,182,247,1) 100%
     <tr>
         <td height="58" width="1000" background="img/header-perspectives4.png">
         <div style="position:relative;height:116;width:1000;">
-            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php" style="font-size:10px">Wat U<br>Fighting 4 Lah</a></div>
+            <div class="tabs<?php if($tab_on == "wuffl") echo "_on" ?>" style="right:230"><a href="wuffl.php">Wat U<br>Fighting 4 Lah</a></div>
             <div class="tabs<?php if($tab_on == "videos") echo "_on" ?>" style="right:340"><a href="videos.php">Videos</a></div>
             <div class="tabs<?php if($tab_on == "essays") echo "_on" ?>" style="right:450"><a href="essays.php">Essays</a></div>
             <div class="tabs<?php if($tab_on == "home") echo "_on" ?>" style="right:560"><a href="index.php">Home</a></div>
