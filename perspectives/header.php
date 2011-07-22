@@ -7,6 +7,10 @@ body
     background: #dadbdb;
 }
 
+table td tr
+{
+    font-size:12px;
+}
 h2
 {
     margin:0;
@@ -168,6 +172,6 @@ background: linear-gradient(top, rgba(207,231,250,1) 0%,rgba(128,182,247,1) 100%
         <td>
 <table width="1000" cellpadding="0" cellspacing="0">
     <td width="8" background="img/left-shadow.png" valign="top">
-        &nbsp;<div style="position:relative;left:-14;top:-20"><div style="position:absolute;"><img src="img/wing.png"></div></div>
+        &nbsp;<div style="position:relative;left:-14;top:-22"><div style="position:absolute;"><img src="img/wing.png"></div></div>
     </td>
     <td bgcolor="white">
