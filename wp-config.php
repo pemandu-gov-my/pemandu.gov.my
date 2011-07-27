@@ -22,7 +22,7 @@ define('DB_NAME', 'pemandu1_gtp');
 define('DB_USER', 'pemandu1_gtp');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'tf4d4B2Y');
+define('DB_PASSWORD', 'pemandu1_gtp');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
