@@ -1,6 +1,8 @@
+<?php require_once "db.php" ?>
 <style>
 body
 {
+    font-family: "courier new";arial;
     background: url('img/background.png');
 }
 
@@ -37,11 +39,17 @@ clear:both;
 {
     background:red;
 }
+
+div a
+{
+    text-decoration: none;
+    color:grey;
+}
 </style>
 
 <div style="height:64"></div>
     
-<table width="900" cellpadding="0" cellspacing="0" align="center">
+<table width="1000" cellpadding="0" cellspacing="0" align="center">
 <td width="200" valign="top">
     <img src="img/logo.png">
     <div id="menu_item_container">
