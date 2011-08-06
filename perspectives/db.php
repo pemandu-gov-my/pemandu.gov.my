@@ -1,6 +1,6 @@
 <?php 
 $dbserver = "127.0.0.1";
-$dbname = "_gtp";
+$dbname = "pemandu1_gtp";
 $dbusername = "pemandu1_gtp";
 $dbpassword = "pemandu1_gtp";
 
