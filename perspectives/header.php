@@ -45,6 +45,21 @@ div a
     text-decoration: none;
     color:grey;
 }
+
+#figure
+{
+    position:relative;
+    left:400px;
+    top:-80px;
+}
+
+#klcity
+{
+    position:fixed;
+    bottom:0;
+    left:100px;
+    
+}
 </style>
 
 <div style="height:64"></div>
@@ -67,5 +82,8 @@ div a
 
 <td width="800" valign="top">
 <div id="main">
+<div style="position:absolute;">
+    <div id="figure"><img src="img/figure.png"></div>
+</div>
 
 
