@@ -1,4 +1,10 @@
 <?php require_once "header.php"; ?>
+<style>
+    #figure
+    {
+        visibility: hidden;
+    }
+</style>
 
 <?php
 if($_GET)
