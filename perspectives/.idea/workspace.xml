@@ -23,10 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="12" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.7520129">
+            <state line="84" column="12" selection-start="1445" selection-end="1445" vertical-scroll-proportion="-20.304348">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wuffl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wuffl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="-2.4347825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="essays.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/essays.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="54" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7697368">
               <folding />
             </state>
           </provider>
@@ -48,6 +66,8 @@
       <list>
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/wuffl.php" />
+        <option value="$PROJECT_DIR$/essays.php" />
       </list>
     </option>
   </component>
@@ -224,7 +244,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="12" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.7520129">
+        <state line="84" column="12" selection-start="1445" selection-end="1445" vertical-scroll-proportion="-20.304348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuffl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="-2.4347825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="54" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7697368">
           <folding />
         </state>
       </provider>

@@ -29,6 +29,7 @@ else
     $result = mysql_query($query);
     while($row = mysql_fetch_assoc($result))
     {
+        $k++;
         ?>
         <a href="?id=<?php echo $row['id'] ?>">
         <div style="width:90px;float:left;margin:0 10px 10px 0;">
@@ -38,6 +39,7 @@ else
         </div>
         </a>
         <?php
+        if($k==5) echo '<div style="clear:both"></div>';
     }
 
     ?></table><?php
