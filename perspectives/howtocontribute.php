@@ -1,7 +1,4 @@
 <?php require_once "header.php"; ?>
-<img src="temp/howtocontribute.png">
-<br/><br/>
-<div align="center" style="width:600px;padding:10px;border:1px dotted grey; background:#efefef;">
-<a href="mailto:perspectives@pemandu.gov.my">perspectives@pemandu.gov.my</a>
-</div>
+<map id="_Image-Maps_4201108230104505" name="Image-Maps_4201108230104505"><area shape="rect" coords="0,355,388,394" href="mailto:perspectives@pemandu.gov.my" alt="" title="" /></map>
+<img usemap="#Image-Maps_4201108230104505" id="Image-Maps_4201108230104505" src="temp/3.png">
 <?php require_once "footer.php"; ?>

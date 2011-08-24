@@ -1,4 +1,5 @@
 <?php require_once "db.php" ?>
+<title>Perspectives</title>
 <style>
 body
 {
@@ -57,7 +58,7 @@ div a
 {
     position:fixed;
     bottom:0;
-    left:100px;
+    left:25px;
     
 }
 </style>
@@ -82,7 +83,7 @@ div a
 
 <td width="800" valign="top">
 <div id="main">
-<div style="position:absolute;">
+<div style="position:absolute;z-index: -10;">
     <div id="figure"><img src="img/figure.png"></div>
 </div>
 

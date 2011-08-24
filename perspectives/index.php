@@ -1,5 +1,5 @@
 <?php require_once "header.php"; ?>
-<img src="temp/index.png">
+<img src="temp/1.png">
 <br/><br/>
 <?php
 ?>
