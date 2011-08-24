@@ -7,9 +7,17 @@
 </style>
 
 <?php
+
+function cleanMe($string)
+{
+$new_string = ereg_replace("[^A-Za-z0-9]", "", $string);
+return $new_string;
+}
+
+
 if($_GET)
 {
-    $id = $_GET['id'];
+    $id = cleanMe($_GET['id']);
     $query = "select * from `essays` where id = $id";
     $result = mysql_query($query);
     $row = mysql_fetch_assoc($result);
