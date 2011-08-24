@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+            <state line="17" column="117" selection-start="713" selection-end="713" vertical-scroll-proportion="0.4047619">
               <folding />
             </state>
           </provider>
@@ -82,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="essays.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="essays.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/essays.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="132" selection-start="407" selection-end="407" vertical-scroll-proportion="0.17517006">
+            <state line="20" column="59" selection-start="660" selection-end="660" vertical-scroll-proportion="-7.521739">
               <folding />
             </state>
           </provider>
@@ -123,11 +123,11 @@
       <list>
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/wuffl.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/criteria.php" />
         <option value="$PROJECT_DIR$/howtocontribute.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/essays.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -326,13 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp/1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -378,7 +371,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essays.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="132" selection-start="407" selection-end="407" vertical-scroll-proportion="0.17517006">
+        <state line="20" column="59" selection-start="660" selection-end="660" vertical-scroll-proportion="-7.521739">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="117" selection-start="713" selection-end="713" vertical-scroll-proportion="0.4047619">
           <folding />
         </state>
       </provider>
