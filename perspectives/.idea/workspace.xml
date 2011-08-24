@@ -32,37 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wuffl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wuffl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="117" selection-start="713" selection-end="713" vertical-scroll-proportion="0.4047619">
+            <state line="16" column="102" selection-start="617" selection-end="617" vertical-scroll-proportion="-9.73913">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp/1.png">
+      <file leaf-file-name="Emily Chow.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/writers/Emily Chow.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="criteria.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/criteria.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -82,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="essays.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="essays.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/essays.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="59" selection-start="660" selection-end="660" vertical-scroll-proportion="-7.521739">
+            <state line="41" column="86" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.54761904">
               <folding />
             </state>
           </provider>
@@ -93,6 +75,20 @@
       </file>
       <file leaf-file-name="Louisa Won.jpg" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/writers/Louisa Won.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Max Jala.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/writers/Max Jala.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lee Zhi Wei.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/writers/Lee Zhi Wei.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -126,8 +122,8 @@
         <option value="$PROJECT_DIR$/criteria.php" />
         <option value="$PROJECT_DIR$/howtocontribute.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/essays.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/essays.php" />
       </list>
     </option>
   </component>
@@ -263,7 +259,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13396779" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1749634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -364,21 +360,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/writers/Emily Chow.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/img/writers/Louisa Won.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essays.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="59" selection-start="660" selection-end="660" vertical-scroll-proportion="-7.521739">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/img/writers/Max Jala.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/writers/Lee Zhi Wei.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="117" selection-start="713" selection-end="713" vertical-scroll-proportion="0.4047619">
+        <state line="16" column="102" selection-start="617" selection-end="617" vertical-scroll-proportion="-9.73913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="86" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.54761904">
           <folding />
         </state>
       </provider>
