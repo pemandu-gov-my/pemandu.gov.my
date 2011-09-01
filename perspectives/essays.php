@@ -28,7 +28,7 @@ if($_GET)
     <br/><br/>
     <span style="font-size:40px;color:#f4b33c;font-weight: bold"><?php echo $row['title'] ?></span>
     <br/><br/>
-    <span style="font-size:15px;"><?php echo $row['essays'] ?></span>
+    <span style="font-size:15px;font-family: 'century gothic'"><?php echo $row['essays'] ?></span>
     <p></p>
     <?php
 }
@@ -46,9 +46,9 @@ else
         $k++;
         ?>
         <a href="?id=<?php echo $row['id'] ?>">
-        <div style="width:90px;float:left;margin:0 10px 10px 0;">
-            <div align="center" style="background:black;width:90px;height:68px;border:1px solid black;">
-                <img src="<?php echo "img/writers/".$row['name'].".jpg" ?>" height="68"></div><span style="font-family:'century gothic',arial;font-size:10px"><?php echo $row['title'] ?> by <?php echo $row['name'] ?>
+        <div style="width:180px;float:left;margin:0 10px 10px 0;">
+            <div align="center" style="background:black;width:180px;height:136px;border:1px solid black;">
+                <img src="<?php echo "img/writers/".$row['name'].".jpg" ?>" height="136"></div><span style="font-family:'century gothic',arial;font-size:16px"><?php echo $row['title'] ?> by <?php echo $row['name'] ?>
             </div>
         </div>
         </a>
