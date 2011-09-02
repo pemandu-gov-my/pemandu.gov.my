@@ -144,7 +144,7 @@ if(isset($_POST['submit'])){
 
 					<ul>
 
-						<li><a  href="http://www.pemandu.gov.my/gtp/perspectives" id="careerid" style="width:41px; width:60px; padding-bottom: 0px; height: 28px; float:left;" target="_blank" ><font size=2>PERSPECTIVES</font></a></li>
+						<li><a  href="http://www.pemandu.gov.my/gtp/perspectives" id="careerid" style="width:41px; width:60px; padding-bottom: 0px; height: 28px; float:left;" target="_blank" ><font size="1">PERSPECTIVES</font></a></li>
 
 						<li ><a  href="<?php echo  bloginfo('siteurl') ?>/?feedback=form" id="careerid"  style=" width:65px; padding-bottom: 0px; height: 28px; float:left;">FEEDBACK</a></li>
 
