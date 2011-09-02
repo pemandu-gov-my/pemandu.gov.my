@@ -76,7 +76,7 @@ div a
     <div class="menu_item">+ <a href="essays.php">essays</div>
     <div class="menu_item">+ <a href="wuffl.php">what u fighting 4 lah</div>
     </div>
-    <div class="clear" align="center">
+    <div class="clear" align="right">
         <br/>
         <img src="img/gtplogo.png" width="150">
     </div>

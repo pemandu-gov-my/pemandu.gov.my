@@ -3,7 +3,7 @@
 <br/><br/>
 <?php
 ?>
-    <div style="font-size:40px;color:#f4b33c;font-weight: bold">Latest Essays</div>
+    <div style="font-size:40px;color:#FFC10E;font-weight: bold">Latest Essays</div>
     <table width="100%" cellpadding="0" cellspacing="0">
 
     <?php
