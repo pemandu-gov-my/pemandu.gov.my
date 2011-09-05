@@ -4,6 +4,11 @@ $replace = '';
 $subject = $_GET['file'];
 $file_path= str_replace($search, $replace, $subject);
 $file = $file_path;
+
+if((!preg_match('/^http\:\/\/.+?\.pdf/i', $file) ||
+preg_match('/(\.\.\/|.+?.php$)/i', $file)))
+die('Invalid request');
+
 if (file_exists($file)) {
     header('Content-Description: File Transfer');
     header('Content-Type: application/octet-stream');
