@@ -5,8 +5,10 @@ $subject = $_GET['file'];
 $file_path= str_replace($search, $replace, $subject);
 $file = $file_path;
 
-if((!preg_match('/^http\:\/\/.+?\.pdf/i', $file) ||
-preg_match('/(\.\.\/|.+?.php$)/i', $file)))
+if(!preg_match('/.+?((\.zip$)|(\.jpeg$)|(\.jpg$)|(\.pdf$))/i', $file))
+die('Invalid request');
+else
+if(preg_match('/(\.\.)|(\%00)\.(zip|pdf|jpg|jpeg)$/i', $file))
 die('Invalid request');
 
 if (file_exists($file)) {
