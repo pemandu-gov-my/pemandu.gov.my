@@ -23,13 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Emily Chow.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/writers/Emily Chow.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="howtocontribute.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/howtocontribute.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,10 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="essays.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="essays.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/essays.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-0.6086956">
+            <state line="26" column="61" selection-start="702" selection-end="702" vertical-scroll-proportion="0.54761904">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="21" selection-start="1317" selection-end="1317" vertical-scroll-proportion="-47.47826">
               <folding />
             </state>
           </provider>
@@ -64,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.png" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp/2.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -315,13 +317,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="15" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="102" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
@@ -344,13 +339,6 @@
     <entry file="file://$PROJECT_DIR$/temp/3.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-0.6086956">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/writers/Louisa Won.jpg">
@@ -385,6 +373,20 @@
     <entry file="file://$PROJECT_DIR$/temp/2.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="21" selection-start="1317" selection-end="1317" vertical-scroll-proportion="-47.47826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="61" selection-start="702" selection-end="702" vertical-scroll-proportion="0.54761904">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

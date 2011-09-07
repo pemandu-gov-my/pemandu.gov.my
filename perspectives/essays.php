@@ -24,7 +24,7 @@ if($_GET)
     ?><img src="<?php echo "img/writers/".$row['name'].".jpg" ?>" align="right" style="margin: 5px 0px 10px 20px;border:1px solid grey;">
     <span style="font-size:40px;color:#f4b33c;font-weight: bold"><?php echo $row['name'] ?></span>
     <br/>
-    <span style="font-size:15px;"><?php echo $row['bio'] ?></span>
+    <span style="font-size:15px;font-family: 'century gothic'"><?php echo $row['bio'] ?></span>
     <br/><br/>
     <span style="font-size:40px;color:#f4b33c;font-weight: bold"><?php echo $row['title'] ?></span>
     <br/><br/>
