@@ -23,24 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="43" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-20.304348">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="102" selection-start="617" selection-end="617" vertical-scroll-proportion="-9.73913">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Emily Chow.jpg" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/writers/Emily Chow.jpg">
           <provider selected="true" editor-type-id="images">
@@ -51,7 +33,7 @@
       <file leaf-file-name="howtocontribute.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/howtocontribute.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="93" selection-start="312" selection-end="312" vertical-scroll-proportion="-1.2173913">
+            <state line="2" column="93" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,12 +46,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="essays.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="essays.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/essays.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.16666667">
+            <state line="7" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-0.6086956">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="criteria.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/criteria.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="16" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.6086956">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/temp/2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -97,7 +95,7 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="5" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.826087">
+            <state line="3" column="5" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,10 +107,6 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -181,7 +175,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="temp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,10 +192,6 @@
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -213,8 +203,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.externalResources" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -317,9 +307,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wuffl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/temp/1.png">
@@ -327,16 +315,28 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/criteria.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+        <state line="85" column="15" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="102" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/writers/Emily Chow.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/howtocontribute.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="93" selection-start="312" selection-end="312" vertical-scroll-proportion="-1.2173913">
+        <state line="2" column="93" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -346,16 +346,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/essays.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="43" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-20.304348">
+        <state line="7" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-0.6086956">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/writers/Emily Chow.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/writers/Louisa Won.jpg">
@@ -373,25 +368,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="102" selection-start="617" selection-end="617" vertical-scroll-proportion="-9.73913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.826087">
+        <state line="3" column="5" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essays.php">
+    <entry file="file://$PROJECT_DIR$/criteria.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.16666667">
+        <state line="1" column="16" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.6086956">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
