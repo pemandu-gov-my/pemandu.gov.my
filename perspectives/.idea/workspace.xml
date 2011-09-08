@@ -42,7 +42,7 @@
       <file leaf-file-name="essays.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/essays.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="61" selection-start="702" selection-end="702" vertical-scroll-proportion="0.54761904">
+            <state line="24" column="77" selection-start="609" selection-end="609" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -336,11 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/writers/Louisa Won.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -382,9 +377,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/temp/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/essays.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="61" selection-start="702" selection-end="702" vertical-scroll-proportion="0.54761904">
+        <state line="24" column="77" selection-start="609" selection-end="609" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>

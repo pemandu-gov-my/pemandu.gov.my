@@ -68,7 +68,7 @@ div a
     
 <table width="1000" cellpadding="0" cellspacing="0" align="center">
 <td width="200" valign="top">
-    <img src="img/logo.png">
+    <a href="index.php"><img src="img/logo.png" border="0"></a>
     <div id="menu_item_container">
     <div class="menu_item">+ <a href="index.php">home</a></div>
     <div class="menu_item">+ <a href="criteria.php">criteria</div>
@@ -78,7 +78,7 @@ div a
     </div>
     <div class="clear" align="right">
         <br/>
-        <img src="img/gtplogo.png" width="150">
+        <a href="http://pemandu.gov.my/gtp"><img src="img/gtplogo.png" width="150" border="0"></a>
     </div>
 </td>
 
