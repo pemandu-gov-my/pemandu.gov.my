@@ -79,6 +79,9 @@ div a
     <div class="clear" align="right">
         <br/>
         <a href="http://pemandu.gov.my/gtp"><img src="img/gtplogo.png" width="150" border="0"></a>
+        <div style="font-size:10px;font-family:arial;text-align: right;margin-top:20px;color:#999999;">
+            Any views and/or opinions expressed in the entries in this website do not reflect the views of Perspectives but remain solely those of the author(s)
+        </div>
     </div>
 </td>
 
