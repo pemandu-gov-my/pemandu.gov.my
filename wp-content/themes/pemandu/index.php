@@ -117,4 +117,19 @@
             
         }
 </script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function popitup(url) {
+	newwindow=window.open(url,'name','height=563,width=837');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+// -->
+popitup('http://pemandu.gov.my/gtp/popup.php');
+</script>
+
+
+</body>
+
 <?php include_once 'template/footer.php';?>
