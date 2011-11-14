@@ -960,6 +960,7 @@ catch (err) { $("#debug").append("<p>ERROR: "+err+"</p>"); }*/
   #all { background: #fff; }
   
   header { display: block; background: url("images/gtp_masthead.jpg") top left no-repeat; height: 122px; }
+  header a { display: block; height: 100%; position: relative; }
   header h1, header h2 { display: none; }
   footer { display: block; padding: 10px 160px; text-align: left;
            font-family: Arial, Sans-Serif; color: #676767; font-size: 10px;
@@ -1066,7 +1067,9 @@ catch (err) { $("#debug").append("<p>ERROR: "+err+"</p>"); }*/
 <body>
 <div id="all">
   <header>
-    <h1>Touching Lives Of All Malaysians</h1><h2>as of September 2011</h2>
+    <a href="http://pemandu.gov.my/gtp" target="_blank">
+      <h1>Touching Lives Of All Malaysians</h1><h2>as of September 2011</h2>
+    </a>
   </header>
   <div id="starmap-all">
     <div id="starmap-map">
