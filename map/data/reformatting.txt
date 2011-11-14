@@ -1,0 +1,7 @@
+1. All area fills: #c8c8c8
+2. Remove all N-text
+3. P-text fill: #069
+4. All font-family as _sans
+5. External stroke from #ED1C24 to #fff.
+6. Internal stroke from #B2B4B6 to #aaa.
+7. Import as PNG, fill width as much as possible.
