@@ -126,7 +126,7 @@ function popitup(url) {
 	return false;
 }
 // -->
-popitup('http://pemandu.gov.my/gtp/popup.php');
+//popitup('http://pemandu.gov.my/gtp/popup.php');
 </script>
 
 
