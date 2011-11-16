@@ -1067,7 +1067,7 @@ catch (err) { $("#debug").append("<p>ERROR: "+err+"</p>"); }*/
 <body>
 <div id="all">
   <header>
-    <a href="http://pemandu.gov.my/gtp" target="_blank">
+    <a href="http://www.pemandu.gov.my/gtp" target="_blank">
       <h1>Touching Lives Of All Malaysians</h1><h2>as of September 2011</h2>
     </a>
   </header>
